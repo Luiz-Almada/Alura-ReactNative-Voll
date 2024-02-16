@@ -10,7 +10,7 @@ interface InputProps {
 export function EntradaTexto ({ 
   label, 
   placeholder, 
-  secureTextEntry = false
+  secureTextEntry = false,
 } : InputProps) : JSX.Element {
   return (
     <FormControl mt={3}>
